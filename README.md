@@ -1,36 +1,58 @@
-# Beegum Shahijas  
+# Beegum Shahijas Website
 
-### 🚀 Frontend Developer | React | Tailwind CSS | Framer Motion  
+This is a responsive website for Beegum Shahijas, a company specializing in sweet roasted rice powders from Kerala, India.
 
-Welcome to my GitHub profile! I’m a passionate frontend developer with a focus on building modern, responsive, and interactive web applications. I love crafting engaging user experiences using **React.js, Tailwind CSS, and Framer Motion**.  
+## Getting Started
 
----
+1. Install dependencies:
 
-## 🔥 Skills & Technologies  
+```bash
+npm install
+```
 
-- **Frontend Development:** React.js, Next.js, JavaScript, TypeScript  
-- **UI/UX & Styling:** Tailwind CSS, CSS3, SCSS, Framer Motion  
-- **State Management:** Redux, Context API  
-- **Version Control:** Git, GitHub  
-- **Deployment:** Vercel, Netlify  
+2. Start the development server:
 
----
+```bash
+npm start
+```
 
-## 🌟 Projects  
+3. Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-### 🏝️ Flyva Tours and Travels (Landing Page)  
-A **modern and visually appealing** landing page built using **React, Tailwind CSS, and Framer Motion** to showcase travel packages and services.  
-🔗 [GitHub Repository](https://github.com/BeegumShahijas/Flyva-Tours-and-Travels)  
+## Project Structure
 
-### 💼 Portfolio Website  
-A fully **responsive portfolio** to showcase my skills and projects, designed using **Next.js and Tailwind CSS**.  
+```
+beegum-shahijas-website/
+├── public/
+│   ├── images/           # Place all images here
+│   └── index.html        # HTML entry point
+│
+├── src/
+│   ├── About.tsx         # About section component
+│   ├── App.tsx           # Main App component
+│   ├── Contact.tsx       # Contact section component
+│   ├── FontSetup.tsx     # Font setup utility
+│   ├── Footer.tsx        # Footer component
+│   ├── Header.tsx        # Header component
+│   ├── Hero.tsx          # Hero section component
+│   ├── index.css         # Global styles
+│   ├── index.tsx         # React entry point
+│   ├── Products.tsx      # Products section component
+│   └── Tradition.tsx     # Tradition section component
+│
+├── package.json          # Project dependencies
+├── postcss.config.js     # PostCSS configuration
+└── tailwind.config.js    # Tailwind CSS configuration
+```
 
----
+## Before Deployment
 
-## 🚀 Get in Touch  
+1. Replace all placeholder images in the `public/images/` directory with your actual images.
+2. Update the content in each component to match your actual business information.
 
-📧 **Email:** beegumshahijas@gmail.com  
-🔗 **GitHub:** [github.com/BeegumShahijas](https://github.com/BeegumShahijas)  
-💼 **LinkedIn:** [linkedin.com/in/beegumshahijas](https://linkedin.com/in/beegumshahijas)  
+## Building for Production
 
-Let’s connect and build something amazing! 🚀✨  
+```bash
+npm run build
+```
+
+This creates a `build` folder with production-ready files that can be deployed to any static hosting service.
